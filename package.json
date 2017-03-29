@@ -1,0 +1,32 @@
+{
+  "name": "qb-assign",
+  "version": "1.0.0",
+  "description": "A tiny Object.assign implementation that works down to IE9 (uses Object.keys)",
+  "homepage": "https://github.com/quicbit-js/qb-assign",
+  "url": "https://github.com/quicbit-js/qb-assign/issues",
+  "email": "support@quicbit.com",
+  "repository": "quicbit-js/qb-assign",
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "test-kit": "^2.3.5"
+  },
+  "scripts": {
+    "test": "tap --coverage-report=html test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "Object.assign",
+    "assign",
+    "options",
+    "copy",
+    "object",
+    "javascript",
+    "browser",
+    "small",
+    "tiny"
+  ],
+  "author": "Matthew Voss",
+  "license": "ISC"
+}
