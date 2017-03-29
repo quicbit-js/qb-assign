@@ -23,6 +23,9 @@ Object.assign support is still just shy of healthy (no IE, > Chrome 45), so this
 uses Object.keys() which has broader support (> IE9, > Chrome 5).  Using Object.keys() reduces
 the code and skips prototypes which is a bit sleeker than for..in.
 
+**Complies with the 100% test coverage and minimum dependency requirements** of 
+[qb-standard](http://github.com/quicbit-js/qb-standard) . 
+
 ## Install
 
 npm install qb-assign
